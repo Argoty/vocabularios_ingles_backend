@@ -1,9 +1,7 @@
 from pymongo import MongoClient
-import os
-
 # Conexión local a la base de datos
 # db_client = MongoClient().local
 
 
 # Conexión a la base de datos en la nube
-db_client = MongoClient(os.environ.get("CONEXION_DB")).test
+db_client = MongoClient("mongodb+srv://Javier:08102006@cluster.xzddmzj.mongodb.net/?retryWrites=true&w=majority").test
