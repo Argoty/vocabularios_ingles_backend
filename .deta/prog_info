@@ -1,0 +1,1 @@
+{"id":"7387da86-2b93-47fa-ba3e-dc9e6faf7a35","space":50719,"runtime":"python3.9","name":"vocabularios_ingles_backend","path":"esbfm9","project":"e0k32n9v","account":"144798365827","region":"sa-east-1","deps":["fastapi","pymongo","python-jose","passlib","python-dotenv","python-multipart"],"envs":null,"public":true,"log_level":"debug","cron":""}

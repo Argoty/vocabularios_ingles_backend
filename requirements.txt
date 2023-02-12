@@ -4,4 +4,3 @@ python-jose
 passlib
 python-dotenv
 python-multipart
-uvicorn
