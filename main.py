@@ -17,7 +17,6 @@ load_dotenv()
 
 from routers import palabras, usuarios
 
-
 app = FastAPI()
 
 app.include_router(palabras.router)
