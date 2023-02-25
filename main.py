@@ -1,7 +1,7 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException
 
 from db.models.vocabulario import Vocabulario, Palabra
-from db.models.usuarios import Usuario
+# from db.models.usuarios import Usuario
 
 from db.schemas.vocabulario import vocabularios_schema
 from db.client import db_client
@@ -11,6 +11,8 @@ from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 
 from dotenv import load_dotenv
+
+
 
 load_dotenv()
 
@@ -118,4 +120,3 @@ async def eliminar_vocabulario(id: str):
         
 
 # correr server local: uvicorn main:app --reload
-# api: https://bwmkck.deta.dev
