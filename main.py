@@ -26,6 +26,7 @@ app.include_router(usuarios.router)
 
 origins = [
     "http://localhost:8080",
+    "https://vocabularios.netlify.app"
 ]
 
 app.add_middleware(
